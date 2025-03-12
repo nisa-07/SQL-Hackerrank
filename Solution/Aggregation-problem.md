@@ -15,11 +15,11 @@ The CITY table is described as follows:
 | POPULATION  | NUMBER       |
 +-------------+--------------+
 */
-'''sql
+```sql
 SELECT COUNT(*)
 FROM CITY
 WHERE POPULATION>100000;
-'''
+```
 /*
 
 Query the total population of all cities in CITY where District is California.
