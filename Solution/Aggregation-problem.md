@@ -1,5 +1,5 @@
 /*
-Query a count of the number of cities in CITY with populations larger than 100,000.
+1.Query a count of the number of cities in CITY with populations larger than 100,000.
 
 ## Input Format
 
@@ -22,7 +22,7 @@ WHERE POPULATION>100000;
 ```
 /*
 
-Query the total population of all cities in CITY where District is California.
+2.Query the total population of all cities in CITY where District is California.
 
 ```sql
 SELECT SUM(POPULATION)
@@ -30,7 +30,7 @@ FROM CITY
 WHERE DISTRICT = "California";
 
 ```
-Query the total population of all cities in CITY where District is California.
+3.Query the total population of all cities in CITY where District is California.
 
 ```sql
 SELECT SUM(POPULATION)
@@ -38,7 +38,7 @@ FROM CITY
 WHERE DISTRICT='California';
 ```
 
-Query the difference between the maximum and minimum populations in CITY.
+4.Query the difference between the maximum and minimum populations in CITY.
 
 ```sql
 SELECT MAX(POPULATION)-MIN(POPULATION)
